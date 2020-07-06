@@ -31,4 +31,10 @@ Next, we analyze how the accuracy obtained at each last dense layer varies with 
 ![epoch_loss8](/Images/epoch_loss_8.JPG)
 ![epoch_loss10](/Images/epoch_loss_10.JPG)
 
+Now, we predict the CAPTCHA. For predicting the CAPTCHA, we provide the image path and then the image is scaled. After that the model uses the image and then the output from the layers of model is mapped with the character set and the CAPTCHA is predicted. As a sample, an image from the dataset is passed to the model separately after renaming the file to some random name. The figure and the predicted CAPTCHA are shown
+
+![output1](/Images/snippet1.JPG)
+![output2](/Images/snippet2.JPG)
+
+
 
