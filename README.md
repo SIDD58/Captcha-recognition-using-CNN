@@ -17,7 +17,7 @@ Thus, after pre-processing we obtain all the grayscale images and the target arr
 .
 ### Model Development
 
-### Results And Conclusion
+### Results 
 
 After training the above model for 60 epochs, the following graph was obtained for loss with respect to the number of epochs as shown in figure 6. We see that as the number of epoch’s increases, the loss decreases exponentially. The loss at the end of 60 epochs is 0.5932. The loss obtained on training set is 0.2391 while the loss on test set is 2.123.
 
@@ -34,7 +34,18 @@ Next, we analyze how the accuracy obtained at each last dense layer varies with 
 Now, we predict the CAPTCHA. For predicting the CAPTCHA, we provide the image path and then the image is scaled. After that the model uses the image and then the output from the layers of model is mapped with the character set and the CAPTCHA is predicted. As a sample, an image from the dataset is passed to the model separately after renaming the file to some random name. The figure and the predicted CAPTCHA are shown
 
 ![output1](/Images/snippet1.JPG)
+
+
 ![output2](/Images/snippet2.JPG)
+
+Thus, we see that our model predicts the CAPTCHA efficiently for small letters of English language and digits. 
+
+###Conclusion:
+CAPTCHA was designed to improve the security of the systems but deep learning algorithms defeated its very purpose. In this project, we used Convolutional Neural networks for CAPTCHA recognition. The dataset consisted of 1070 sample images and consisted of 5 lettered CAPTCHA. The model has been trained for CAPTCHA containing small English alphabets and digits, thus for a total of 36 characters. For training a purpose 970 samples have been utilized. The images in the dataset have been preprocessed and converted into grayscale for the further training. While training a convolutional neural network of twenty four layers has been developed consisting of input layer, convolutional layers, max pooling layers, flatten layer, dense layers and dropout layers. The model outputs five layers corresponding to each character of CAPTCHA and each has dimension 36 corresponding to the total number of characters possible. The model is trained using 60 epochs and it works well to predict any 5 lettered CAPTCHA containing small English alphabets and digits. The loss obtained after 60 epochs is 0.5932 and the accuracy of the output layers obtained is as dense layer 2 - 0.9897, dense layer 4 - 0.9794, dense layer 6 - 0.9227, dense layer 8 - 0.8969 and for dense layer 10 - 0.9278. The loss on training set is 0.2391 while the loss on test set is 2.123. The future scope of this work lies to expand this CAPTCHA recognition system for larger and more noisy CAP
+TCHA containing all the symbols possible.  
+
+
+
 
 
 
