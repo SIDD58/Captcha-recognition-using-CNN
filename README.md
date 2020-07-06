@@ -17,6 +17,10 @@ Thus, after pre-processing we obtain all the grayscale images and the target arr
 .
 ### Model Development
 
+The model developed for this CAPTCHA dataset uses Convolutional Neural Network. It consists of a total twenty four layers comprising the input layer, convolutional layers, max pooling layers, dense layers, flatten layers and dropout layers. The total numbers of parameters is 1,818,196 where 1,818,132 parameters are trainable and 64 are non-trainable parameters. A brief architecture of the layers is depicted in figure.
+
+![epoch_loss](/Images/Layers Architecture.JPG)
+
 ### Results 
 
 After training the above model for 60 epochs, the following graph was obtained for loss with respect to the number of epochs as shown in figure 6. We see that as the number of epoch’s increases, the loss decreases exponentially. The loss at the end of 60 epochs is 0.5932. The loss obtained on training set is 0.2391 while the loss on test set is 2.123.
