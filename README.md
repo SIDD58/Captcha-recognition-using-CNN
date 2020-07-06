@@ -20,10 +20,10 @@ Thus, after pre-processing we obtain all the grayscale images and the target arr
 ### Results And Conclusion
 
 ![epoch_loss](/Images/epoch_loss.JPG)
-![epoch_loss2](/Images/epoch_loss2.JPG)
-![epoch_loss4](/Images/epoch_los4.JPG)
-![epoch_loss6](/Images/epoch_los6.JPG)
-![epoch_loss8](/Images/epoch_loss8.JPG)
-![epoch_loss10](/Images/epoch_loss10.JPG)
+![epoch_loss2](/Images/epoch_loss_2.JPG)
+![epoch_loss4](/Images/epoch_loss_4.JPG)
+![epoch_loss6](/Images/epoch_loss_6.JPG)
+![epoch_loss8](/Images/epoch_loss_8.JPG)
+![epoch_loss10](/Images/epoch_loss_10.JPG)
 
 
