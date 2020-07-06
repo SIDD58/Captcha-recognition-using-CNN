@@ -15,4 +15,15 @@ The images are first pre-processed by reading them in grayscale. This helps us t
 Each grayscale image is then scaled and reshaped to the size: height- 50, width-200 and the number of channels as 1. Then we create an array of dimension 5*36(5 denotes the number of characters in the CAPTCHA and 36 denotes all the possible characters) for each image containing all entries as zeroes. This array is used to store the character present at each position in the CAPTCHA. At each position, through filename we find which characters are present at each position of the CAPTCHA and update the corresponding location to one in this array. This array will thus be used for training the model.
 Thus, after pre-processing we obtain all the grayscale images and the target array containing information regarding the characters present in each CAPTCHA image
 .
+### Model Development
+
+### Results And Conclusion
+
+![epoch_loss](/Images/epoch_loss.JPG)
+![epoch_loss2](/Images/epoch_loss2.JPG)
+![epoch_loss4](/Images/epoch_los4.JPG)
+![epoch_loss6](/Images/epoch_los6.JPG)
+![epoch_loss8](/Images/epoch_loss8.JPG)
+![epoch_loss10](/Images/epoch_loss10.JPG)
+
 
