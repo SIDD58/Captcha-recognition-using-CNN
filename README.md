@@ -51,7 +51,8 @@ Thus, we see that our model predicts the CAPTCHA efficiently for small letters o
 ### Conclusion:
 CAPTCHA was designed to improve the security of the systems but deep learning algorithms defeated its very purpose. In this project, we used Convolutional Neural networks for CAPTCHA recognition. The dataset consisted of 1070 sample images of which 970 samples have been utilized for training purpose . The images in the dataset have been preprocessed and converted into grayscale for the further training. While training a convolutional neural network of twenty four layers has been developed. The model outputs five layers corresponding to each character of CAPTCHA. The model is trained using 60 epochs and it works well to predict any 5 lettered CAPTCHA. The loss obtained after 60 epochs is 0.5932 and the accuracy of the output layers obtained is as dense layer 2 - 0.9897, dense layer 4 - 0.9794, dense layer 6 - 0.9227, dense layer 8 - 0.8969 and for dense layer 10 - 0.9278. The loss on training set is 0.2391 while the loss on test set is 2.123. The future scope of this work lies to expand this CAPTCHA recognition system for larger and more noisy CAPTCHA containing all the possible symbols.  
 
-https://medium.com/@manvi./d191ef91330e
+## Learn mpore about our model and its working at
+[Our blog](https://medium.com/@manvi./d191ef91330e)
 
 
 
