@@ -9,7 +9,7 @@ The dataset used for this project consists of 1070 .png images of text based CAP
 ### Model Development:
 The model is developed using Convolutional Neural Network for detecting the Captcha present in the image. For this purpose, the training sample dataset is first pre-processed and then the model is developed consisting of twenty four layers.
 
-![Workflow](/Images/Workflow.JPG| width=48)
+![Workflow](/Images/Workflow.JPG)
 
 #### Data Preprocessing:
 The dataset consists of images of size 50 height and 200 width. These images first need to be pre-processed before developing the model. For the purpose of training, the images in the dataset have a filename same as the CAPTCHA possessed by the image. The images are first pre-processed by reading them in grayscale. This helps us to remove the noise to some extent as the images get invariant of the background color. Simultaneously, the file name is also stored in a string.
