@@ -20,7 +20,7 @@ Each grayscale image is then scaled and reshaped. Then we create an array of dim
 The model developed for this CAPTCHA dataset uses CNN. It consists of a total twenty four layers comprising the input layer, convolutional layers, max pooling layers, dense layers, flatten layers and dropout layers. The total numbers of parameters is 1,818,196 where 1,818,132 parameters are trainable and 64 are non-trainable parameters. A brief architecture of the layers is depicted in figure.
 
 ![epoch_loss](/Images/Layers_Architecture.JPG)
-<img src="/Images/Layers_Architecture.JPG" alt="Workflow" width="200"/>
+<img src="/Images/Layers_Architecture.JPG" alt="Workflow" width="50%"/>
 
 The first layer is the input layer which takes the image as input. Then we have convolutional layers and the max pooling layers which extracts the most prominent feautures from the images. The next layer is the batch normalization layer, used to improve the stability of the model.Then we have a flatten layer which converts the input from max pool layer to a long vector of desired dimensions. This is done so as the further neural network is easily processed and the back propagation is carried out easily. Further there are five dense layers in this neural network each of which is connected to the flatten layer. Each of these dense layers deploys the activation function ‘relu’ to train the parameters. Further to each of these dense layers is connected a dropout layer used for regularisation. Following the dropout layer is again a dense layer which uses the activation function ‘sigmoid’. The sigmoid function is also called a logistic function and it transforms the input to values between 0 and 1. 
 
