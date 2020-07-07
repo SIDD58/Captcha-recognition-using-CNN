@@ -31,31 +31,31 @@ Thus, the model uses an image of dimension (50, 200, 1) as input and gets output
 After training the model for 60 epochs, the following graph was obtained for loss with respect to the number of epochs. We see that as the number of epoch’s increases, the loss decreases exponentially. The loss at the end of 60 epochs is 0.5932. The loss obtained on training set is 0.2391 while the loss on test set is 2.123.
 
 ![epoch_loss](/Images/epoch_loss.JPG)
-<img src="/Images/epoch_loss.JPG" alt="Workflow" width="200"/>
+<img src="/Images/epoch_loss.JPG" alt="Workflow" width="50%"/>
 
 Next, we analyze how the accuracy obtained at each last dense layer varies with the number of epochs. The graph for accuracy of the output dense layers, namely dense layer 2,4,6,8 and 10 with respect to number of epochs is shown in figures 7,8,9,10,11. Thus we see that as the number of epochs increases, the accuracy of the layers improves and hence the system can predict the CAPTCHA more efficiently. The accuracy obtained after 60 epochs for dense layer 2 is 0.9897, dense layer 4 is 0.9794,  dense layer 6 is 0.9227, dense layer 8 is 0.8969 and for dense layer 10 is 0.9278.
 
 ![epoch_loss2](/Images/epoch_loss_2.JPG)
-<img src="/Images/epoch_loss_2.JPG" alt="Workflow" width="200"/>
+<img src="/Images/epoch_loss_2.JPG" alt="Workflow" width="50%"/>
 ![epoch_loss4](/Images/epoch_loss_4.JPG)
-<img src="/Images/epoch_loss_4.JPG" alt="Workflow" width="200"/>
+<img src="/Images/epoch_loss_4.JPG" alt="Workflow" width="50%"/>
 ![epoch_loss6](/Images/epoch_loss_6.JPG)
-<img src="/Images/epoch_loss_6.JPG" alt="Workflow" width="200"/>
+<img src="/Images/epoch_loss_6.JPG" alt="Workflow" width="50%"/>
 ![epoch_loss8](/Images/epoch_loss_8.JPG)
-<img src="/Images/epoch_loss_8.JPG" alt="Workflow" width="200"/>
+<img src="/Images/epoch_loss_8.JPG" alt="Workflow" width="50%"/>
 ![epoch_loss10](/Images/epoch_loss_10.JPG)
-<img src="/Images/epoch_loss_10.JPG" alt="Workflow" width="200"/>
+<img src="/Images/epoch_loss_10.JPG" alt="Workflow" width="50%"/>
 
 
 
 Now, we predict the CAPTCHA using the trained model.
 
 ![output1](/Images/snippet1.JPG)
-<img src="/Images/snippet1.JPG" alt="Workflow" width="200"/>
+<img src="/Images/snippet1.JPG" alt="Workflow" width="50%"/>
 
 
 ![output2](/Images/snippet2.JPG)
-<img src="/Images/snippet2.JPG" alt="Workflow" width="200"/>
+<img src="/Images/snippet2.JPG" alt="Workflow" width="50%"/>
 
 Thus, we see that our model predicts the CAPTCHA efficiently for small letters of English language and digits. 
 
